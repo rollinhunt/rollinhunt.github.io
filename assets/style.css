@@ -89,3 +89,36 @@ footer a {
   color: inherit;
   text-decoration: underline;
 }
+.site-nav {
+  margin-top: 0.75rem;
+  display: inline-flex;
+  gap: 1rem;
+}
+.site-nav a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.site-nav a:hover { border-bottom-color: #999; }
+.breadcrumbs {
+  margin: 1rem 0 2rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+.breadcrumbs a { color: inherit; text-decoration: underline; }
+.project-hero {
+  display: grid; gap: 1.25rem;
+}
+.project-hero img { width: 100%; height: auto; border-radius: 12px; }
+.meta {
+  color: #555; font-size: 0.95rem; line-height: 1.6;
+}
+.gallery {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.gallery figure { margin: 0; }
+.gallery img { width: 100%; border-radius: 10px; display: block; }
+.gallery figcaption { color:#666; font-size: .9rem; margin-top:.35rem; }
