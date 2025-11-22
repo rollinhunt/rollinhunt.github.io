@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Anke Devanagari", Avenir, Helvetica, Arial, sans-serif
   color: #111;
   background: #fafafa;
 }
 
 header {
-  text-align: center;
+  text-align: left;
   padding: 4rem 1rem 2rem;
 }
 
